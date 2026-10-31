@@ -1,6 +1,6 @@
 prepare:
-  target: Churn                # columna que se quiere predecir
-  drop_columns: [customerID]   # identificadores o columnas que no aportan
+  target: quality
+  drop_columns: []   # identificadores o columnas que no aportan
   test_size: 0.2
   random_state: 42
 
