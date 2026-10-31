@@ -5,8 +5,8 @@ prepare:
   random_state: 42
 
 train:
-  n_estimators: 200
-  max_depth: 12
+  n_estimators: 500
+  max_depth: 300
 
 mlflow:
   experiment: integrador-equipo-X   # cambiar X por el nombre del equipo
