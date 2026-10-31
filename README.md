@@ -1,5 +1,4 @@
-# Proyecto integrador · [nombre del equipo]
-
+# Proyecto integrador · Escuadrón Dinamita
 Curso Despliegue y monitoreo de Machine Learning.
 
 | | |
