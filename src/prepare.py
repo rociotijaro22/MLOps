@@ -6,9 +6,9 @@ import yaml
 from sklearn.model_selection import train_test_split
 
 params = yaml.safe_load(open("params.yaml", encoding="utf-8"))["prepare"]
+print(params)
 target = params["target"]
-
-df = pd.read_csv("data/raw/dataset.csv")
+df = pd.read_csv("data/raw/winequality-red.csv", delimiter=";")
 df = df.drop(columns=params.get("drop_columns") or [], errors="ignore")
 
 # Columnas de texto que en realidad son números (por ejemplo, TotalCharges en Telco)
